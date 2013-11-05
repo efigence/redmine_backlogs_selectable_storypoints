@@ -11,4 +11,5 @@ Redmine::Plugin.register :redmine_backlogs_selectable_storypoints do
   settings :default => {}, :partial => 'settings/selectable_storypoints_settings'
 end
 
-require 'redmine_backlogs_selectable_storypoints/hooks/selectize_storypoints_hook'
+require 'redmine_backlogs_selectable_storypoints/hooks/selectize_storypoints_edit_hook'
+require 'redmine_backlogs_selectable_storypoints/hooks/selectize_storypoints_new_hook'

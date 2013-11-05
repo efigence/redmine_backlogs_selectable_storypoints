@@ -1,8 +1,10 @@
 # Redmine Backlogs Selectable Story Points
 
-Redmine plugin for Backlogs users, which replaces text field with select on the edit issue page.
+Redmine plugin for Backlogs users, which helps to keep consistent `story points` data across Redmine.
 
-Select options are exactly the same, as story points defined on Backlogs configuration page. To edit existing story points visit Administration -> Plugin. Afterwards, click on `Configure` for Backlogs plugin. In `Story and Task settings` section you can add/remove existing story points.
+It replaces 'Story points' `text field` with `select` on new & update issue pages. Options for select are exactly the same, as story points defined on Backlogs configuration page (and in projects' backlogs).
+
+To edit existing story points visit Administration -> Plugin. Afterwards, click on `Configure` for Backlogs plugin. In `Story and Task settings` section you can add/remove existing story points.
 
 # Requirements
 
