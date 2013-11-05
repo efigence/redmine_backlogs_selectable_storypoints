@@ -2,9 +2,7 @@
 
 Redmine plugin for Backlogs users, which helps to keep consistent `story points` data across Redmine.
 
-It replaces 'Story points' `text field` with `select` on new & update issue pages. Options for select are exactly the same, as story points defined on Backlogs configuration page (and in projects' backlogs).
-
-To edit existing story points visit Administration -> Plugin. Afterwards, click on `Configure` for Backlogs plugin. In `Story and Task settings` section you can add/remove existing story points.
+It replaces 'Story points' `text field` with `select` on new & update issue pages. Options for select are exactly the same, as story points defined on Backlogs configuration page (as well as in projects' backlogs).
 
 # Requirements
 
@@ -18,6 +16,4 @@ Developed & tested on Redmine 2.3.3.
 
 # Usage
 
-To configure plugin visit Administration -> Plugin. Afterwards, click on `Configure` link next to the plugin name.
-
-There you can enable/disable plugins' functionality.
+To configure plugin visit Administration -> Plugin. Afterwards, click on `Configure` link next to the plugin name. There you can enable/disable plugins' functionality.
