@@ -1,0 +1,6 @@
+<%= check_box_tag "settings[selectize_storypoints]", '1', Setting.plugin_redmine_backlogs_selectable_storypoints.try(:[], 'selectize_storypoints') == '1', id: :selectize_storypoints %></td>
+<%= label_tag :selectize_storypoints, t('enable_select') %></td>
+
+<% content_for :header_tags do %>
+  <%= javascript_include_tag 'settings_page', :plugin => 'redmine_backlogs_selectable_storypoints' %>
+<% end %>
