@@ -1,4 +1,4 @@
-# Redmine Backlogs Selectable Story Points
+# Redmine Backlogs selectable_storypoints plugin
 
 Redmine plugin for Backlogs users, which helps to keep consistent `story points` data across Redmine.
 
