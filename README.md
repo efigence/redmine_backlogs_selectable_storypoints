@@ -14,6 +14,10 @@ Developed & tested on Redmine 2.3.3.
 2. `git clone http://github.com/efigence/redmine_backlogs_selectable_storypoints`
 3. Restart Redmine.
 
+# Configuration
+
+To enable/disable plugins' functionality visit Administration -> Plugin. Afterwards, click on `Configure` link next to the plugin name. 
+
 # Usage
 
-To configure plugin visit Administration -> Plugin. Afterwards, click on `Configure` link next to the plugin name. There you can enable/disable plugins' functionality.
+After enabling plugin, select field will be present in place of input field next to the 'Story Points' label for new issue or when updating issue. 
