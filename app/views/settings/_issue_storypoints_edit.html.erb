@@ -1,7 +1,7 @@
 <% if !@issue.project.enabled_modules.select {|p| p.name=='backlogs'}.empty? %>
   <% if Setting.plugin_redmine_backlogs_selectable_storypoints.try(:[], 'selectize_storypoints') == '1' %>
     <p id='current_storypoint' style="display:none;"><%= @issue.story_points.to_i.to_s if @issue.story_points %></p>
-    <%= select_tag "temp[story_points]", options_for_select(Backlogs.setting[:story_points].split(',').map {|v| [v, v.to_i]} << ["",""]), :style => "display:none;" %>
+    <%= select_tag "temp[story_points]", options_for_select(Backlogs.setting[:story_points].split(',').map {|v| [v, v.to_i]}), :prompt => t(:none), :style => "display:none;" %>
     <% content_for :header_tags do %>
       <%= javascript_include_tag 'selectize_storypoints', :plugin => 'redmine_backlogs_selectable_storypoints' %>
     <% end %>
